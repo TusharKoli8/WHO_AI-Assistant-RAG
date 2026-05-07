@@ -96,7 +96,7 @@ Streamlit UI (main.py)
 ### 1. Clone the repository
 ---bash
 
-git clone https://github.com/yourusername/WHO_AI_Assistant.git
+git clone https://github.com/TusharKoli8/WHO_AI_Assistant.git
 cd WHO_AI_Assistant
 
 
