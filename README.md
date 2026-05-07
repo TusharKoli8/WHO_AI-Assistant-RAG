@@ -126,6 +126,7 @@ pip install -r requirements.txt
 Create a ".env" file in the project root:
 
 GROQ_API_KEY=your_groq_api_key_here
+
 MODEL_NAME=llama-3.3-70b-versatile
 
  Get your free Groq API key at: https://console.groq.com
@@ -152,12 +153,19 @@ streamlit run app/main.py
 ##  Example Questions
 
 | Category | Example Question |
+
 |---|---|
+
 | Procurement | "What are WHO procurement procedures for medicines?" |
+
 | Partnerships | "What are the risks of public-private partnerships in health?" |
+
 | Community | "How should communities be engaged during a disease outbreak?" |
+
 | Treatment | "What are WHO recommended treatments for Tuberculosis?" |
+
 | Policy | "What is WHO's approach to risk communication in emergencies?" |
+
 | General | "What is the role of WHO in global health?" |
 
 
