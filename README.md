@@ -177,9 +177,11 @@ The app uses 3 intelligent agents before every query hits the RAG pipeline:
 
 |---|---|
 
-| **Validation Agent** | Checks if the question is relevant to WHO publications. Rejects unrelated topics like sports, cooking, coding. |
-| **Classifier Agent** | Labels the query into a category: Treatment, Procurement, Policy, Community Engagement, etc. |
-| **Query Refiner Agent** | Rewrites vague short queries into detailed search queries for better FAISS retrieval. |
+| **Validation Agent** | Checks if the question is relevant to WHO publications. Rejects unrelated topics like sports, cooking, coding. 
+
+| **Classifier Agent** | Labels the query into a category: Treatment, Procurement, Policy, Community Engagement, etc. 
+
+| **Query Refiner Agent** | Rewrites vague short queries into detailed search queries for better FAISS retrieval. 
 
 
 ## Query Categories
@@ -202,6 +204,6 @@ The app uses 3 intelligent agents before every query hits the RAG pipeline:
 This tool is for **research and informational purposes only**. Always consult a qualified healthcare professional for medical advice. Answers are strictly grounded in the WHO documents provided — the assistant will not answer questions outside the scope of these documents.
 
 
+## Built with 
 
-
-Built with  using LangChain, FAISS, Groq, and Streamlit.
+using LangChain, FAISS, Groq, and Streamlit.
